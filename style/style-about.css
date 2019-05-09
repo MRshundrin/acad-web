@@ -1,0 +1,177 @@
+/*start main block in page about us*/
+.about-us {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 130px;
+}
+
+.about-column {
+	width: 552px;
+}
+
+.capture5-in-about {
+	padding-bottom: 20px;
+}
+
+.benefits-block {
+	padding: 60px 0 80px 0;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+/*start block with benefit*/
+.benefit-element {
+	width: 357px;
+	padding-bottom: 45px;
+}
+
+.benefit-before::before {
+	display: inline-block;
+	vertical-align: -13px;
+	content: "";
+	width: 40px;
+	height: 40px;
+	margin-right: 19px;
+	background-color: #7beec7;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.responsive-icon::before {
+	background-image: url(../images/about/responsive-icon.png);
+}
+
+.option-icon::before {
+	background-image: url(../images/about/option-icon.png);
+}
+
+.wordpress-icon::before {
+	background-image: url(../images/about/wordpress-icon.png);
+}
+
+.e-commerce-icon::before {
+	background-image: url(../images/about/e-commerce-icon.png);
+}
+
+.design-icon::before {
+	background-image: url(../images/about/design-icon.png);
+}
+
+.benefit-support-icon::before {
+	background-image: url(../images/about/support-icon.png);
+}
+/*end block with benefit*/
+
+/*start team block*/
+.team-block {
+	padding-top: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+	flex-wrap: wrap;
+}
+
+.team-photo {
+	padding-bottom: 30px;
+}
+
+.about-team-box {
+	padding: 50px 0;
+	background-color: #efeff0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.about-team-text {
+	padding-left: 30px;
+	color: #60606e;
+	font-family: "Open Sans";
+	font-size: 18px;
+	font-style: italic;
+}
+
+.team-button {
+	margin: 0 30px 0 0;
+}
+/*end team block*/
+
+/*block with reviews and finished work*/
+.review-block {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 150px;
+}
+
+.review-column {
+	width: 555px;
+	text-align: center;
+}
+
+.customer-name {
+	margin: 30px auto;
+	background-color: #7beec7;
+	width: 99px;
+	line-height: 29px;
+	color: #fff;
+	text-align: center;
+}
+
+.customer-button {
+	width: 16px;
+	height: 5px;
+	background-color: #60606e;
+	border: 0;
+}
+
+.customer-button:focus {
+	background-color: #7beec7;
+	width: 31px;
+}
+
+.customer-button:active {
+	background-color: #7beec7;
+	width: 29px;
+	border: 1px black solid;
+}
+
+.finished-work-column {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.link-finished-work {
+	display: block;
+	width: 165px;
+	height: 100px;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.work1 {
+	background-image: url(../images/about/Layer14.png);
+}
+
+.work2 {
+	background-image: url(../images/about/Layer15.png);
+}
+
+.work3 {
+	background-image: url(../images/about/Layer16.png);
+}
+
+.work4 {
+	background-image: url(../images/about/Layer17.png);
+}
+
+.work5 {
+	background-image: url(../images/about/Layer18.png);
+}
+
+.work6 {
+	background-image: url(../images/about/Layer19.png);
+}
+/*block with reviews and finished work*/
+/*end main block in page about us*/

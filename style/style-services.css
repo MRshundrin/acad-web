@@ -1,0 +1,127 @@
+/*start main block in services page*/
+/*start opportunities block*/
+.opportunities-block {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 100px;
+}
+
+.opportunities-box {
+	width: 480px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.opportunities-list {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.opportunity {
+	line-height: 30px;
+}
+
+.opportunity::before {
+	display: inline-block;
+	content: "\2714";
+	width: 10px;
+	height: 10px;
+	background-color: #7beec7;
+	color: #fff;
+	font-weight: 700;
+	line-height: 10px;
+	font-size: 10px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+/*end opportunities block*/
+
+/*start motivation block*/
+.motivation-block {
+	display: flex;
+	justify-content: space-between;
+	padding: 130px 0 113px 0;
+}
+
+.motivation-column {
+	text-align: center;
+	width: 223px;
+}
+
+.motivation-column::before {
+	width: 50px;
+	height: 20px;
+	top: 50px;
+    left: 78px;
+}
+
+.icon-before {
+	margin-bottom: 13px;
+}
+
+.icon-before::before {
+	display: block;
+	content: "";
+	width: 53px;
+	height: 53px;
+	margin: 0 auto 30px auto;
+	background-position: center;
+	background-repeat: no-repeat;
+}	
+
+.pulse-icon::before {
+	background-image: url(../images/services/pulse.png);
+}
+
+.unlim-icon:before {
+	background-image: url(../images/services/unlim2.png);
+}
+
+.lamp-icon::before {
+	background-image: url(../images/services/lamp.png);
+}
+
+.support-icon::before {
+	background-image: url(../images/services/support.png);
+}
+/*end motivation block*/
+
+/*start block with price*/
+.price-block {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 100px;
+}
+
+.price-offer {
+	position: relative;
+	border-top: 5px solid #7beec7;
+	width: 360px;
+	box-sizing: border-box;
+	padding-left: 30px;
+}
+
+.price-offer:hover {
+	box-shadow: 0 0 50px rgba(0, 0, 0, 0.25);
+}
+
+.price-offer::before {
+	content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    background-image: linear-gradient(to top right, transparent 50%, #7beec7 50%);
+}
+
+.buy-package {
+	text-decoration: none;
+	display: block;
+	line-height: 52px;
+	text-align: center;
+	margin: 37px 0 70px 0;
+}
+/*end block with price*/
+/*end main block in services page*/

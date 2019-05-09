@@ -1,0 +1,137 @@
+/*start header*/
+.page-header {
+	background-image: url(../images/home/header.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0 -100px;
+}
+
+.logo {
+	width: 555px;
+	text-align: center;
+	border: 10px solid #60606e;
+	font-size: 47px;
+	text-transform: uppercase;
+	line-height: 80px;
+	margin: 0;
+}
+
+.part-of-logo {
+	width: 99px;
+	margin: 0 auto;
+	line-height: 30px;
+	background-color: #7beec7;
+}
+
+.paragraph-in-header {
+	width: 540px;
+}
+
+.about-agency-box {
+	padding-top: 110px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	text-align: left;
+}
+
+.about-agency {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.image-in-header {
+	width: 458px; 
+	height: 400px; 
+}
+/*end header*/
+
+/*start style in main*/
+/*start advantages block*/
+.advantages-box {
+	display: flex;
+	justify-content: space-between;
+	padding: 100px 0 125px 0;
+}
+
+.advantages-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.capture-before::before {
+	display: block;
+	content: "";
+	width: 28px;
+	height: 28px;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-bottom: 20px;
+}
+
+.advantages-list {
+	color: #999999;
+	font-size: 14px;
+	line-height: 30px;
+	text-transform: uppercase;
+	list-style-type: none;
+	padding: 0;
+}
+
+.unlim::before {
+	width: 32px;
+	background-image: url(../images/home/unlim.png);
+}
+
+.e-commerce::before {
+	background-image: url(../images/home/e-commerce.png);
+}
+
+.desing::before {
+	background-image: url(../images/home/desing.png);
+}
+
+.customizable::before {
+	background-image: url(../images/home/customizable.png);
+}
+/*end advantages block*/
+
+
+/*start portfolio block*/
+.portfolio {
+	padding-top: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.column-in-portfolio {
+	width: 263px;
+}
+.category-list {
+	list-style-type: none;
+}
+
+.category-link {
+	font-family: Montserrat;
+	color: #60606e;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 48px;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding-left: 20px;
+}
+
+.category-link:hover {
+	padding: 0 20px;
+	color: #ffffff;
+	background-color: #7beec7;
+}
+
+.image-in-portfolio {
+	margin-bottom: 30px;
+}
+/*end portfolio block*/
+/*end main block*/

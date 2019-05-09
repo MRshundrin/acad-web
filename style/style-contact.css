@@ -1,0 +1,63 @@
+/*main block in contact page*/
+.contact-content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.form-and-contact-info {
+	width: 555px;
+}
+
+.input-in-contact {
+	width: 233px;
+	margin-bottom: 30px;
+}
+
+.object {
+	width: 535px;
+	margin-bottom: 30px;
+}
+
+.form-in-contact {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.textarea {
+	width: 535px;
+	height: 180px;
+	padding-top: 20px;
+	margin-bottom: 30px;
+}
+
+textarea::-webkit-input-placeholder { color: #cdcdcd; }
+textarea::-moz-placeholder { color: #cdcdcd; }
+
+.send-message {
+	width: 165px;
+	height: 50px;
+	margin-bottom: 76px;
+}
+
+.paragraph-in-contact {
+	font-size: 14px;
+	color: #999999;
+	line-height: 30px;
+}
+
+.address {
+	padding-top: 5px;
+}
+
+.phone-link {
+	text-decoration: none;
+	color: #999999;
+	display: block;
+	padding: 8px 0;
+}
+
+.email-link {
+	font-weight: 700;
+}
+/*end main block in contact page*/
